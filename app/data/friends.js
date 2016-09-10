@@ -17,16 +17,16 @@ var friendsArray = [{
   "name":"Michelle",
   "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
   "scores":[
-     2,
-     6,
-     9,
-     7,
      5,
-     1,
-     3,
      5,
-     7,
-     1
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
    ]
 }];
 
