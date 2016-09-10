@@ -23,6 +23,7 @@ module.exports = function(app){
 			}
 
 			allDifferences.push(totalDifference);
+			totalDifference = 0;
 		}
 
 		console.log(totalDifference);
