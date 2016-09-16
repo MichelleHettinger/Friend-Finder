@@ -3,7 +3,7 @@ var friends = require('../data/friends.js');
 module.exports = function(app){
 	//This function gets the friends data when the API Friends list link is clicked on
 	app.get('/api/friends', function(req, res){
-		res.json(friends);
+		res.send(friends);
 	});
 
 	//This function adds a new user
@@ -31,7 +31,7 @@ module.exports = function(app){
 		//Give the smallest value in the array
 		var bestMatch = friends[allDifferences.indexOf(Math.min.apply(null, allDifferences))];
 
-		console.log(bestMatch);
+		res.send(bestMatch);
 
 	});
 
